@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+	xmlns:engine="UnityEngine.UIElements"
+	xmlns:editor="UnityEditor.UIElements"
+>
+	<engine:VisualElement name="nameElement">
+		<engine:Label name="NameLabel" text='Name: '/>
+		<engine:TextField name="NameText"/>
+	</engine:VisualElement>
+	<engine:VisualElement name="Cases">
+	</engine:VisualElement>
+	<engine:VisualElement name="buttonsContainer">
+		<engine:Button name="AddButton">
+			<engine:Label text='Add Case'/>
+		</engine:Button>
+		<engine:Button name="RemoveLastButton">
+			<engine:Label text='Remove Last'/>
+		</engine:Button>
+	</engine:VisualElement>
+</engine:UXML>

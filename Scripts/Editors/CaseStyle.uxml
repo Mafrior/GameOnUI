@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+	xmlns:engine="UnityEngine.UIElements"
+	xmlns:editor="UnityEditor.UIElements"
+>
+	<engine:VisualElement name="Container">
+		<engine:Label text="Размещение объектов"/>
+		<engine:VisualElement name="Buttons">
+			<engine:VisualElement name="ButtonsBox">
+				<engine:VisualElement name="Row">
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+				</engine:VisualElement>
+				<engine:VisualElement name="Row">
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+				</engine:VisualElement>
+				<engine:VisualElement name="Row">
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+					<engine:Button name="button">
+						<engine:Label text="" name="Label"/>
+					</engine:Button>
+				</engine:VisualElement>
+			</engine:VisualElement>
+		</engine:VisualElement>
+	</engine:VisualElement>
+</engine:UXML>

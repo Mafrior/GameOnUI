@@ -1,0 +1,40 @@
+#nameElement{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+}
+
+#NameText{
+	width: 80%;
+}
+
+#NameLabel{
+	width: 18%;
+}
+
+#Cases{
+	margin-top: 8px;
+}
+
+#buttonsContainer{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#AddButton{
+	max-width: 150px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+#RemoveLastButton{
+	max-width: 150px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+}
